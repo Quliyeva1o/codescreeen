@@ -1,0 +1,326 @@
+{ 
+    "users": [
+        {
+            "email":"rena@gmail.com",
+            "password":"salam123",
+            "firstName":"rena",
+            "lastName":"quliyeva",
+            "mobile":"0516469996",
+            "birthDate":"27 oct 2004",
+            "postCode":"1010",
+            "gender":"female",
+            "terms":true,
+            "tickets":[
+                
+            ]
+        }
+    ],
+    "movies": [
+        {
+            "name": "bad boys",
+            "director": "Adil El Arbi, Bilall Fallah",
+            "cast": "Will Smith, Vanessa Hudgens, Martin Lawrence, Joe Pantoliano, Ioan Gruffudd, Tiffany Haddish, Alexander Ludwig, Eric Dane, Tasha Smith, Rhea Seehorn, Melanie Liburd, Paola Nunez, Jacob Scipio",
+            "genre": "Action, Adventure, Comedy",
+            "rating": "MA (Strong action violence and coarse language) ",
+            "descripion": "This year, the world's favorite Bad Boys return, blending thrilling action and their hilarious signature comedy, but this time with a twist: Miami's finest are now fugitives.",
+            "runtime": "115 min",
+            "releaseDate": "6 June 2024",
+            "trailer": "https://youtu.be/F5d_RzBIU8g",
+            "ageRes": "15",
+            "halls":[
+                
+            ],
+            "sessionTimes": [
+                {
+                    "date": "6:00 PM",
+                    "hole": "HOYTS LUX"
+                }
+            ]
+        }
+    ],
+    "Halls": [
+        {
+            "name": "Redcliffe",
+            "location": "272 Anzac Ave Kippa-Ring QLD 4020",
+            "img": "https://imgix.hoyts.com.au/experiences/page-header--recliners.png?fit=crop&auto=compress%2cformat&crop=focalpoint&fp-x=0.83&fp-y=0.36&w=1400&h=400",
+            "city":"QLD",
+            "tel": " (07) 3339 9700",
+            "map": "https://www.google.com/maps/dir//-27.225154,153.088067",
+            "events": [
+                {
+                    "eventId": "cdbhvb3kjrk"
+                }
+            ],
+            "movies":[]
+        }
+    ],
+    "events": [
+        {
+            "_id": "cdbhvb3kjrk",
+            "title": "HOYTS D-BOX Motion Recliners",
+            "video": "https://youtu.be/xTyb7OalTaM",
+            "img": "https://youtu.be/xTyb7OalTaM",
+            "desscription": "The best part is, all seats have their own control panel, so that you can take control of your experience by personalising the intensity of the motion from low, medium and high. The result is an unparalleled experience that has literally changed the way people watch movies. So don’t just watch the action, be part of it."
+        }
+    ]
+}
+
+
+
+
+//  <select id="form-placeholder__select--preferredCinema">
+// <option value="">Please select</option>
+// <option value="MIDCIN">ACE HOYTS Midland Gate</option>
+// <option value="ARNCIN">Arndale</option>
+// <option value="BANKTN">Bankstown</option>
+// <option value="BELCON">Belconnen</option>
+// <option value="WESCIN">Blacktown</option>
+// <option value="BMWCIN">Broadmeadows</option>
+// <option value="BROADW">Broadway</option>
+// <option value="BUNCIN">Bunbury</option>
+// <option value="CAROUS">Carousel</option>
+// <option value="CHDSTN">Chadstone</option>
+// <option value="CHARLE">Charlestown</option>
+// <option value="CHWOOD">Chatswood Mandarin</option>
+// <option value="CWFFLD">Chatswood Westfield</option>
+// <option value="CROCIN">Cronulla</option>
+// <option value="CURCIN">Currambine</option>
+// <option value="DOCCIN">District Docklands</option>
+// <option value="EGDENS">Eastgardens</option>
+// <option value="EASTLN">Eastland</option>
+// <option value="SHOWGR">Entertainment Quarter</option>
+// <option value="ERINAF">Erina</option>
+// <option value="FHLCIN">Forest Hill</option>
+// <option value="FRANKS">Frankston</option>
+// <option value="BOOGDN">Garden City</option>
+// <option value="GHLCIN">Green Hills</option>
+// <option value="GRENSB">Greensborough</option>
+// <option value="HIGPNT">Highpoint</option>
+// <option value="JOOCIN">Joondalup</option>
+// <option value="KYPCIN">Karrinyup</option>
+// <option value="MCECIN">Melbourne Central</option>
+// <option value="MILENM">Millennium</option>
+// <option value="MTDRTT">Mt Druitt</option>
+// <option value="NORTHL">Northland</option>
+// <option value="NWDCIN">Norwood</option>
+// <option value="PENRTH">Penrith</option>
+// <option value="REDCLF">Redcliffe</option>
+// <option value="SLYCIN">Salisbury</option>
+// <option value="SOUTHL">Southlands</option>
+// <option value="STAFRD">Stafford</option>
+// <option value="SUNBNK">Sunnybank</option>
+// <option value="TTPLZA">Tea Tree Plaza</option>
+// <option value="TWDCTY">Tweed City</option>
+// <option value="VGDCIN">Victoria Gardens</option>
+// <option value="WWGCIN">Warrawong</option>
+// <option value="WGHMAL">Warringah Mall</option>
+// <option value="WARCIN">Warwick</option>
+// <option value="TAYLOR">Watergardens</option>
+// <option value="WETHER">Wetherill Park</option>
+// <option value="WODENP">Woden</option>
+// </select> 
+//  <label htmlFor="form-placeholder__select--preferredCinema">Preferred cinema <span>*</span></label> 
+
+
+
+
+
+// import React, { useEffect, useState } from 'react';
+// import styles from './index.module.scss';
+// import { Checkbox, FormControl, FormControlLabel, FormLabel, InputLabel, MenuItem, Radio, RadioGroup, Select, TextField } from '@mui/material';
+// import { DateField, DatePicker } from '@mui/x-date-pickers';
+// import { useFormik } from 'formik'; // Formik ekleniyor
+// import * as yup from 'yup'; // Validasyon için Yup ekleniyor
+// import { useGetCinemasQuery } from '../../redux/CinemasSlice';
+// import { useSelector } from 'react-redux';
+
+// const Register = () => {
+//     const { data: cinemas } = useGetCinemasQuery();
+//     const [myCinemas, setMyCinemas] = useState([]);
+//     const user = useSelector((state) => state.user);
+
+
+//     useEffect(() => {
+//         if (cinemas) {
+//             setMyCinemas(cinemas.data);
+//         }
+//     }, [cinemas]);
+
+//     // Formik için initialValues ve validation schema oluşturuluyor
+//     const formik = useFormik({
+//         initialValues: {
+//             email: '',
+//             password: '',
+//             repeat_password: '',
+//             firstName: '',
+//             lastName: '',
+//             mobile: '',
+//             dateOfBirth: null,
+//             postCode: '',
+//             gender: 'female',
+//             preferredCinema: '',
+//             receiveOffers: false,
+//             agreeTerms: false,
+//         },
+//         validationSchema: yup.object().shape({
+//             email: yup.string().email('Invalid email').required('Email is required'),
+//             password: yup.string()
+//                 .matches(/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{5,}$/, "password regex failed")
+//                 .required(),
+//             repeat_password: yup.string().oneOf(
+//                 [yup.ref("password"), null],
+//                 "Passwords must match"
+//             ),
+//             firstName: yup.string().required('First name is required'),
+//             lastName: yup.string().required('Last name is required'),
+//             mobile: yup.string().required('Mobile is required'),
+//             dateOfBirth: yup.date().nullable().required('Date of birth is required'),
+//             postCode: yup.string().required('Post code is required'),
+//             gender: yup.string().required('Gender is required'),
+//             preferredCinema: yup.string().required('Preferred cinema is required'),
+//             agreeTerms: yup.boolean().oneOf([true], 'You must agree to terms and conditions'),
+//         }),
+//         onSubmit: (values) => {
+//             console.log(values);
+//         },
+//     });
+
+//     return (
+//         <div className={styles.register}>
+//             <h2>Become a Rewards Member</h2>
+//             <p>Sign up below or <button>Activate your card</button></p>
+//             <form onSubmit={formik.handleSubmit}>
+//                 <TextField
+//                     id="email"
+//                     name="email"
+//                     label="Email address"
+//                     variant="filled"
+//                     fullWidth
+//                     value={formik.values.email}
+//                     onChange={formik.handleChange}
+//                     error={formik.touched.email && Boolean(formik.errors.email)}
+//                     helperText={formik.touched.email && formik.errors.email}
+//                 />
+//                 <TextField
+//                     id="password"
+//                     name="password"
+//                     label="Password"
+//                     variant="filled"
+//                     fullWidth
+//                     type="password"
+//                     value={formik.values.password}
+//                     onChange={formik.handleChange}
+//                     error={formik.touched.password && Boolean(formik.errors.password)}
+//                     helperText={formik.touched.password && formik.errors.password}
+//                 />
+//                 <TextField
+//                     id="firstName"
+//                     name="firstName"
+//                     label="First name"
+//                     variant="filled"
+//                     fullWidth
+//                     value={formik.values.firstName}
+//                     onChange={formik.handleChange}
+//                     error={formik.touched.firstName && Boolean(formik.errors.firstName)}
+//                     helperText={formik.touched.firstName && formik.errors.firstName}
+//                 />
+//                 <TextField
+//                     id="lastName"
+//                     name="lastName"
+//                     label="Last name"
+//                     variant="filled"
+//                     fullWidth
+//                     value={formik.values.lastName}
+//                     onChange={formik.handleChange}
+//                     error={formik.touched.lastName && Boolean(formik.errors.lastName)}
+//                     helperText={formik.touched.lastName && formik.errors.lastName}
+//                 />
+//                 <TextField
+//                     id="mobile"
+//                     name="mobile"
+//                     label="Mobile"
+//                     variant="filled"
+//                     fullWidth
+//                     value={formik.values.mobile}
+//                     onChange={formik.handleChange}
+//                     error={formik.touched.mobile && Boolean(formik.errors.mobile)}
+//                     helperText={formik.touched.mobile && formik.errors.mobile}
+//                 />
+//                 <DatePicker
+//                     label="Date of birth"
+//                     inputVariant="filled"
+//                     value={formik.values.dateOfBirth}
+//                     onChange={(date) => formik.setFieldValue('dateOfBirth', date)}
+//                     error={formik.touched.dateOfBirth && Boolean(formik.errors.dateOfBirth)}
+//                     helperText={formik.touched.dateOfBirth && formik.errors.dateOfBirth}
+//                 />
+//                 <TextField
+//                     id="postCode"
+//                     name="postCode"
+//                     label="Post code"
+//                     variant="filled"
+//                     fullWidth
+//                     value={formik.values.postCode}
+//                     onChange={formik.handleChange}
+//                     error={formik.touched.postCode && Boolean(formik.errors.postCode)}
+//                     helperText={formik.touched.postCode && formik.errors.postCode}
+//                 />
+//                 <FormControl component="fieldset">
+//                     <FormLabel component="legend">How do you identify?</FormLabel>
+//                     <RadioGroup
+//                         aria-label="gender"
+//                         name="gender"
+//                         value={formik.values.gender}
+//                         onChange={formik.handleChange}
+//                     >
+//                         <FormControlLabel value="female" control={<Radio />} label="Female" />
+//                         <FormControlLabel value="male" control={<Radio />} label="Male" />
+//                         <FormControlLabel value="other" control={<Radio />} label="Other" />
+//                     </RadioGroup>
+//                 </FormControl>
+//                 <FormControl fullWidth>
+//                     <InputLabel id="preferredCinema-label">Preferred cinema</InputLabel>
+//                     <Select
+//                         labelId="preferredCinema-label"
+//                         id="preferredCinema"
+//                         name="preferredCinema"
+//                         value={formik.values.preferredCinema}
+//                         onChange={formik.handleChange}
+//                         error={formik.touched.preferredCinema && Boolean(formik.errors.preferredCinema)}
+//                         variant="filled"
+//                         fullWidth
+//                     >
+//                         {myCinemas.map((cinema) => (
+//                             <MenuItem key={cinema._id} value={cinema._id}>{cinema.name}</MenuItem>
+//                         ))}
+//                     </Select>
+//                 </FormControl>
+//                 <FormControlLabel
+//                     control={<Checkbox
+//                         id='receiveOffers'
+//                         name='receiveOffers'
+//                         checked={formik.values.receiveOffers}
+//                         onChange={formik.handleChange}
+//                     />}
+//                     label="Yes, I would like to receive offers from HOYTS"
+//                 />
+//                 <FormControlLabel
+//                     control={<Checkbox
+//                         id='agreeTerms'
+//                         name='agreeTerms'
+//                         checked={formik.values.agreeTerms}
+//                         onChange={formik.handleChange}
+//                     />}
+//                     label={(
+//                         <span>
+//                             I have read and agree to the <a href="/terms-and-conditions" target="_blank">Terms & Conditions</a> and <a href="/privacy-policy" target="_blank">Privacy Policy</a> <span>*</span>
+//                         </span>
+//                     )}
+//                 />
+//                 <button type="submit" disabled={!formik.isValid}>Continue</button>
+//             </form>
+//         </div>
+//     );
+// }
+
+// export default Register;

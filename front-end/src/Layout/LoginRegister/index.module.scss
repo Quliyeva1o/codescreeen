@@ -1,0 +1,65 @@
+
+.modal {
+    h1{
+        font-family: "poppins";
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    @media (min-width: 641px) {
+        max-width: 488px;
+    }
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px #0a0a0a;
+    background-color: #121212;
+    transition: all 0.4s;
+    position: fixed;
+    overflow: hidden;
+    // transition: height 0s;
+    transition-delay: .2s;
+    z-index: 999;
+    > div {
+        position: relative;
+        padding-left: 24px;
+        padding-right: 24px;
+        overflow-y: auto;
+        scrollbar-width: none;
+        scroll-behavior: smooth;
+        z-index: 333;
+        >button {
+            right: 30px;
+            top: 30px;
+            position: absolute;
+            margin-left: auto;
+            margin: 0;
+            padding: 0;
+            border: none;
+            background: 0 0;
+            color: #fff;
+            cursor: pointer;
+            transition: color 0.4s;
+            z-index: 1;
+            svg {
+                width: 20;
+                height: 20;
+                color: #fff;
+                cursor: pointer;
+                transition: color 0.4s;
+                overflow: hidden;
+            }
+           
+        } h1{
+            margin-top: 80px;
+                color: #fff;
+            }
+    }
+}
+

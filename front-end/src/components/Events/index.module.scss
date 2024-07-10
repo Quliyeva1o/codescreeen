@@ -1,0 +1,63 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+}
+
+.swiperSlide {
+    width: 464px!important;
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    &:hover img{
+        filter:brightness(.8)
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all .4s
+
+    }
+}
+
+.img{
+    border-radius: 5px;
+    overflow: hidden;
+  
+
+}
+.textContent{
+    span{ text-align: start;
+        position: absolute;
+        left: 24px;
+        right: 24px;
+        bottom: 24px;
+        font-family: "poppins";
+        line-height: 1.5;
+        text-align: center;
+        color: #fff;
+        z-index: 2;
+        font-size: 16px;
+       
+    }
+}
+
+.span{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 40%;
+    background: linear-gradient(180deg,rgba(0,0,0,0) 0%,#000 100%);
+    z-index: 1;
+}
+
+
+.textContent {
+    max-height: 60px; /* Örnek bir maksimum yükseklik */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Metin çok uzunsa üç nokta (...) göster */
+  }
+  

@@ -1,0 +1,96 @@
+.hero {
+  margin: 30px 0;
+  width: 100%;
+  @media (min-width: 1681px) {
+    height: 720px;
+  }
+  @media (min-width: 641px) and (max-width: 1680px) {
+    height: 502px;
+  }
+  @media (max-width: 640px) {
+    height: 342px;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+
+    .swiperSlide {
+      position: relative;
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      display: flex;
+      align-items: end;
+      border-radius: 4px !important;
+      box-shadow: 0 0 8px #0a0a0a !important;
+      overflow: hidden;
+      filter: brightness(0.5);
+      @media (max-width: 1240px) {
+        border-radius: 0px !important;
+        width: 100%;
+      }
+      > a {
+        text-decoration: none;
+      }
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .textContent {
+        margin-left: 40px;
+        padding-right: 80px;
+        text-align: start;
+        justify-content: end;
+        z-index: 77;
+        position: relative;
+        margin-bottom: 70px;
+
+        h1 {
+          color: #fff;
+          font-size: 32px;
+          font-weight: 500;
+          font-family: "poppins";
+        }
+        p {
+          margin-bottom: 0;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 3;
+          line-clamp: 3;
+          -webkit-box-orient: vertical;
+          font-family: "poppins";
+          font-weight: 500;
+          line-height: 1.5;
+          color: #999;
+          font-size: 16px;
+          font-weight: 500;
+          pointer-events: auto;
+        }
+      }
+    }
+  }
+}
+.span {
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  bottom: 0;
+  height: 60%;
+  -webkit-transform: translateZ(0);
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%);
+}
+
+.paginationContainer {
+  height: 100%;
+}

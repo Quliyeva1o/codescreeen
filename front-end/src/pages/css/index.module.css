@@ -1,0 +1,81 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+.cards .card {
+  width: 25%;
+  padding: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.cards .card > div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 16px;
+  border-radius: 0 0 4px 4px;
+  background-color: #1e1e1e;
+}
+.cards .card > div div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 16px 0;
+  border-radius: 0 0 4px 4px;
+  background-color: #1e1e1e;
+}
+.cards .card h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "poppins";
+  font-size: 18px;
+  font-weight: 600;
+  color: #dedede;
+}
+.cards .card h2 a {
+  text-decoration: none;
+  color: #dedede;
+  transition: color 0.4s;
+}
+.cards .card h2 a span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.cards .card ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-top: 8px;
+  padding-left: 0;
+  list-style: none;
+}
+.cards .card ul li {
+  margin-top: 4px;
+  padding: 2px 4px;
+  border-radius: 2px;
+  font-family: "poppins";
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #999;
+  background-color: #353535;
+  margin-right: 4px;
+}
+.cards .card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: filter 0.4s;
+}
+.cards .card a {
+  margin-top: auto;
+  font-family: "poppins";
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ff2e38;
+  transition: color 0.4s;
+}/*# sourceMappingURL=index.module.css.map */.css.map */

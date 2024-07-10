@@ -1,0 +1,34 @@
+.add {
+    margin-top: 20px;
+    > h3 {
+        font-family: "Poppins";
+        color: #582eff;
+        font-size: 20px;
+        transition: color 0.4s;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    form {
+        display: flex;
+        width: 600px;
+        margin: 0 auto;
+        gap: 15px;
+        flex-direction: column;
+    }
+    div {
+        border-radius: 10px;
+        border: 1px solid #dedede;
+    }
+    input {
+        color: #dedede;
+    }
+    label {
+        color: #dedede;
+    }
+}
+
+.desc {
+    textarea {
+        color: #fff !important;
+    }
+}

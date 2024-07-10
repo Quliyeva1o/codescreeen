@@ -1,0 +1,31 @@
+.tickets {
+    color: #fff;
+    font-family: "poppins";
+    span:first-child {
+        margin-right: 10px;
+    }
+    button {
+        border: 1px solid #f04249;
+        border-radius: 4px;
+        font-family: "poppins";
+        font-weight: 700;
+        line-height: 1;
+        white-space: nowrap;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        background-color: #cd242c;
+        transition:
+            border-color 0.4s,
+            background-color 0.4s,
+            opacity 0.4s;
+        padding: 16px 24px;
+        font-size: 14px;
+        display: block;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
+.seat {
+    margin-right: 10px;
+}

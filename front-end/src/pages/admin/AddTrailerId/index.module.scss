@@ -1,0 +1,50 @@
+.addtr {
+    color: #fff;
+    font-family: "poppins";
+
+    h2 {
+        color: red;
+    }
+    input {
+        color: #fff;
+    }
+    form {
+        padding: 20px 0;
+        display: flex;
+        div {
+            &:focus-within fieldset {
+                border-color: #582EFF !important;
+            }
+            
+            fieldset {
+                border: 1px solid #999 !important;
+            }
+        }
+        button {
+            background-color: #582EFF;
+            padding: 7px;
+            margin: 10px;
+            color: #fff;
+            border: 1px solid transparent;
+
+            &:hover {
+                color: #582EFF;
+                border: 1px solid #582EFF;
+            }
+        }
+    }
+}
+
+.btn {
+    margin-top: 20px !important;
+    background-color: #582EFF !important;
+    padding: 7px;
+    margin: 10px;
+    border: 1px solid transparent;
+    color: #fff !important;
+    &:hover {
+        color: #582EFF;
+        background-color: #000!important;
+        border: 1px solid #582EFF;
+    }
+}

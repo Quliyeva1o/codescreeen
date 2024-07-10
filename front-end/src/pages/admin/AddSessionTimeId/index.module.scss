@@ -1,0 +1,78 @@
+.sessad {
+    padding: 16px;
+    width: 80%;
+    margin: 0 auto;
+    > h1 {
+        font-family: "poppins";
+        color: red;
+    }
+
+    .divv {
+        margin: 10px 0;
+
+        .div {
+            margin: 10px;
+            background-color: #383838;
+            padding: 20px;
+        }
+        > div {
+            padding: 20px 0;
+            > div {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                span {
+                    color: #999;
+                    margin: 30px 0;
+                    display: inline-block;
+                }
+                button {
+                    color: #000;
+                    padding: 8px;
+                    margin-left: 10px;
+                    border-radius: 10px;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+        .cinemaname {
+            font-family: "poppins";
+            display: block;
+            padding: 20px 0;
+            color: #999;
+            font-size: 20px;
+            font-weight: 600;
+            color: red;
+        }
+        .datePicker {
+            label {
+                color: #999;
+            }
+            > div {
+                color: #999;
+                border: 1px solid #999;
+            }
+            input {
+                color: #999;
+            }
+        }
+    }
+}
+
+.select {
+    > div {
+        background-color: #383838;
+        div {
+            color: #999;
+        }
+    }
+    @media (min-width: 1200px) {
+        width: 30%;
+    }
+}
+
+.btn {
+    padding: 10px;
+}
